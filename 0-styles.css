@@ -1,0 +1,36 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.436);
+    border-radius: 9px;
+    padding: 10px;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #f7f7f7;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("images/d416199ca6ecdbd0f8a3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 200px;
+    height: 280px;
+    padding: 5px;
+}
+
+.i-css {
+    background-position: center;
+}
+
+.i-js {
+    background-position: right;
+}
