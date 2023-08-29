@@ -9,7 +9,7 @@ a::after {
     position: absolute;
     bottom: -1px;
     left: 0;
-    border-top: 2px solid black;
+    border-top: 2.3px solid black;
     width: 0%;
     transition: width 1.2s;
 }
