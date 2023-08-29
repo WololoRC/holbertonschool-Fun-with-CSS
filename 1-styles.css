@@ -1,0 +1,19 @@
+a {
+    color: #931b3a;
+    text-decoration: none;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    border-top: 2px solid black;
+    width: 0%;
+    transition: width 1.2s;
+}
+
+a:hover::after {
+    width: 100%;
+}
